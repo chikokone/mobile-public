@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -20,46 +19,85 @@ utilisons et protégeons vos données lorsque vous utilisez notre application.
 </p>
 
 <h2>2. Données collectées</h2>
+
+<p>Nous pouvons collecter les données suivantes :</p>
+
 <ul>
-<li>Informations de base (nom, email si applicable)</li>
-<li>Données liées aux produits (nom, prix, stock, description)</li>
-<li>Images téléchargées (photos de produits)</li>
-<li>Données techniques (logs, utilisation)</li>
+<li>Informations personnelles (nom, numéro de téléphone, email si fourni)</li>
+<li>Informations de compte utilisateur (Firebase Authentication)</li>
+<li>Données de rendez-vous (date, heure, service, notes)</li>
+<li>Contenu utilisateur (messages, photos envoyées)</li>
+<li>Données techniques (identifiants Firebase, logs d’utilisation, données de l’appareil)</li>
 </ul>
 
 <h2>3. Utilisation des données</h2>
+
 <ul>
-<li>Gestion des produits et du stock</li>
+<li>Gestion des rendez-vous</li>
+<li>Communication entre le client et le gérant</li>
+<li>Stockage et affichage des réservations</li>
 <li>Amélioration de l’application</li>
-<li>Sécurité et prévention des erreurs</li>
+<li>Sécurité et prévention des fraudes</li>
 </ul>
 
 <h2>4. Stockage des données</h2>
+
 <p>
-Les données sont stockées via des services sécurisés (ex: Firebase).
-Nous prenons des mesures raisonnables pour protéger vos informations.
+Les données sont stockées de manière sécurisée via Firebase, incluant :
+Firebase Authentication, Cloud Firestore et Firebase Storage.
 </p>
 
 <h2>5. Partage des données</h2>
+
 <p>
-Nous ne vendons pas vos données. Elles peuvent être partagées uniquement avec
-des services nécessaires au fonctionnement de l’application.
+Les données sont uniquement accessibles dans le cadre de l’application :
+<ul>
+<li>Entre le client et le gérant pour la gestion des rendez-vous</li>
+<li>Via les services Firebase utilisés pour le fonctionnement de l’application</li>
+</ul>
+Nous ne vendons aucune donnée personnelle.
 </p>
 
-<h2>6. Permissions</h2>
+<h2>6. Paiements et données financières</h2>
+
+<p>
+Les paiements ne sont pas effectués dans l’application.
+Ils sont réalisés directement au salon.
+L’application permet uniquement l’enregistrement et le suivi interne des revenus.
+</p>
+
+<h2>7. Permissions</h2>
+
 <p>L’application peut demander :</p>
+
 <ul>
-<li>📷 Caméra : pour prendre des photos de produits</li>
-<li>🖼️ Galerie : pour sélectionner des images</li>
-<li>🌐 Internet : pour sauvegarder les données</li>
+<li>📷 Caméra : prise de photos</li>
+<li>🖼️ Galerie : sélection d’images</li>
+<li>🌐 Internet : synchronisation des données</li>
+<li>📍 Localisation (uniquement pour afficher le salon sur une carte, sans suivi de position)</li>
 </ul>
 
-<h2>7. Vos droits</h2>
+<h2>8. Sécurité des données</h2>
+
 <p>
-Vous pouvez demander la suppression ou modification de vos données à tout moment.
+Nous utilisons Firebase Security Rules et des mesures de sécurité standard
+pour protéger les données des utilisateurs.
 </p>
 
-<h2>8. Contact</h2>
+<h2>9. Droits des utilisateurs</h2>
+
+<p>
+Les utilisateurs peuvent demander l’accès, la modification ou la suppression de leurs données à tout moment.
+</p>
+
+<h2>10. Conservation des données</h2>
+
+<p>
+Les données sont conservées tant que nécessaire pour assurer le fonctionnement de l’application et la gestion des rendez-vous.
+</p>
+
+<h2>11. Contact</h2>
+
 <p>Email : support@saphirbeaute.com</p>
 
 </body>
